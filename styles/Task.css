@@ -1,0 +1,53 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.task-description {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.task-due-date {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.task-status {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-action-button {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.task-action-button.edit {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.task-action-button.delete {
+  background-color: #d9534f;
+  color: white;
+}
