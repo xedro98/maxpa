@@ -1,0 +1,62 @@
+.task-dependency-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.task-dependency-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.task-dependency-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.task-dependency-item:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dependency-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dependency-status {
+  font-size: 16px;
+  color: gray;
+}
+
+.dependency-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.dependency-action-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dependency-action-button.edit {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.dependency-action-button.delete {
+  background-color: #d9534f;
+  color: white;
+}
